@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#4FA197" >
+
+
+    <TextView
+        android:id="@+id/signupactivity"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20px"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="571dp"
+        android:text="Signup Activity "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#EFF0F3"
+        android:textSize="24dp"
+        tools:ignore="HardcodedText,PxUsage,SpUsage,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/txtusername_su"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="450dp"
+        android:hint="username"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textColorHint="#EFF0F3"
+        tools:ignore="Autofill,HardcodedText,LabelFor,SpUsage,TextFields,TextSizeCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="373dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="2dp"
+        android:textSize="25dp"
+        android:textColorHint="#EFF0F3"
+        android:textColor="@color/white"
+        tools:ignore="Autofill,HardcodedText,SpUsage,TextSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="286dp"
+        android:shadowColor="#D1BEBE"
+        android:text="SignUp"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+</RelativeLayout>

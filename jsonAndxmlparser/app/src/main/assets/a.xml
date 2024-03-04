@@ -1,0 +1,16 @@
+<records>
+    <location>
+        <place>Mangalore</place>
+        <longitude>30</longitude>
+        <latitude>25</latitude>
+        <temperature>26</temperature>
+        <humidity>15</humidity>
+    </location>
+    <location>
+        <place>Bangalore</place>
+        <longitude>40</longitude>
+        <latitude>35</latitude>
+        <temperature>36</temperature>
+        <humidity>25</humidity>
+    </location>
+</records>
